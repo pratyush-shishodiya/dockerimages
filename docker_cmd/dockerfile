@@ -1,5 +1,7 @@
 FROM ubuntu
 
+RUN mkdir
+
 RUN apt-get update
 
 CMD ["echo","Hello world"]

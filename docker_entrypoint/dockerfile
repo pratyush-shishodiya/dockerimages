@@ -4,4 +4,4 @@ RUN apt-get update
 
 ENTRYPOINT ["echo","Hello world"]
 
-CMD [/bin/bash]
+#CMD [/bin/bash]
